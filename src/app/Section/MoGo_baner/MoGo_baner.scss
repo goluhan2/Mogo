@@ -1,0 +1,405 @@
+.MoGo_baner {
+  background-image: url(/src/app/Section/MoGo_baner/IMG/PNG/backgraund-baner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.baner_gradient {
+  background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+
+.Mogo_baner_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  padding-top: 42px;
+  max-width: 98px;
+
+  > img {
+    width: 100%;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 670px;
+  gap: 40px;
+}
+
+.navbar-titel {
+  padding: 43px 0;
+  color: white;
+
+  > button {
+    background-color: transparent;
+
+    &:hover {
+      border-bottom: 1px solid #f4bf87;
+      animation: bounce 0.5s linear 1 alternate;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+  }
+
+  > a {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    transition: color 0.3s ease;
+
+    &:hover {
+      border-bottom: 1px solid #f4bf87;
+      color: #f4bf87;
+    }
+  }
+}
+
+.baner_h2 {
+  font-family: Kaushan Script;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  margin-top: 77px;
+}
+
+.baner_h1 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 144px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 44px;
+}
+
+.baner_hr {
+  width: 170px;
+  border: 4px solid #ffffff;
+  margin: 0 auto 72px;
+}
+
+.baner_btn {
+  display: block;
+  max-width: 370px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  border: 4px solid white;
+  margin: 72px auto 116px;
+  padding: 25px 0;
+  width: 100%;
+  transition: all 0.4s ease;
+
+
+  &:hover {
+    transition: all 0.3s ease;
+    color: #e4be8d;
+    background: white;
+    border: 4px solid transparent;
+  }
+
+  &:active {
+    transition: all 0.2s ease;
+    color: #e4be8d;
+    background: white;
+    border: 4px solid #e4be8d;
+  }
+}
+
+.baner_blocks_titel {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.block_titel {
+  position: relative;
+  max-width: 270px;
+  width: 100%;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+
+  &:hover:before {
+    background-color: #f38281;
+  }
+
+
+  p {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 36px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 24px 0;
+
+    > span {
+      font-family: Raleway;
+      font-weight: 500;
+      font-size: 18px;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.burger_btn {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  position: relative;
+  right: 30px;
+  top: 10px;
+
+  span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    left: 12px;
+    transition: transform 0.5s, opacity 0.5s;
+
+    &:nth-child(1) {
+      transform: translateY(10px);
+    }
+
+    &:nth-child(3) {
+      transform: translateY(-10px);
+    }
+  }
+
+  &.active span {
+    &:nth-child(2) {
+      opacity: 0;
+    }
+
+    &:nth-child(1) {
+      transform: translateY(0) rotate(45deg);
+    }
+
+    &:nth-child(3) {
+      transform: translateY(0) rotate(-45deg);
+    }
+  }
+}
+@media (max-width: 1154px) {
+  .navbar-titel > a {
+    font-size: 13px;
+  }
+
+  .baner_h2 {
+    font-size: 48px;
+    margin-top: 52px;
+  }
+
+  .baner_h1 {
+    font-size: 96px;
+    margin-bottom: 35px;
+  }
+
+  .baner_hr {
+    width: 116px;
+    margin: 0 auto 48px;
+  }
+
+  .baner_btn {
+    max-width: 370px;
+    font-size: 18px;
+    margin: 48px auto 79px;
+    padding: 18px 0;
+    width: 100%;
+  }
+
+  .baner_blocks_titel {
+    gap: 20px;
+  }
+
+  .block_titel {
+    max-width: 233px;
+
+    p {
+      font-size: 24px;
+      padding: 17px 0;
+    }
+  }
+}
+
+@media (max-width: 961px) {
+  .navbar-titel > a {
+    font-size: 11px;
+  }
+
+  .baner_h2 {
+    font-size: 44px;
+    margin-top: 48px;
+  }
+
+  .baner_h1 {
+    font-size: 90px;
+    margin-bottom: 35px;
+  }
+
+  .baner_hr {
+    width: 110px;
+    margin: 0 auto 48px;
+  }
+
+  .baner_btn {
+    max-width: 350px;
+    font-size: 16px;
+    margin: 48px auto 79px;
+  }
+
+  .baner_blocks_titel {
+    gap: 20px;
+  }
+
+  .block_titel {
+    max-width: 200px;
+
+    p {
+      font-size: 24px;
+      padding: 17px 0;
+    }
+  }
+}
+@media (max-width: 451px) {
+  .MoGo_baner {
+
+    .header-logo {
+      padding-top: 26px;
+      max-width: 75px;
+
+    }
+
+    .navbar {
+      &.open {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 320px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        transition: top 0.5s;
+      }
+
+      position: absolute;
+      left: 0px;
+      top: -600px;
+      background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+      display: flex;
+      flex-direction: column;
+      color: white;
+      width: 320px;
+      justify-content: space-around;
+      align-items: center;
+      gap: 10px;
+      transition: top 0.5s;
+
+      .navbar-titel {
+        padding: 15px 0;
+        text-align: center;
+        width: 280px;
+        color: white;
+        border: 1px solid wheat;
+        transition: all 0.5s;
+
+        > a {
+          display: block;
+          text-align: center;
+          font-size: 13px;
+        }
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        &:nth-child(7) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+  .baner_h2 {
+    font-size: 36px;
+    margin-top: 34px;
+  }
+
+  .baner_h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+    padding: 75px 0;
+  }
+
+  .baner_hr {
+    width: 134px;
+    margin: 0 auto 49px;
+  }
+
+  .baner_btn {
+    max-width: 285px;
+    font-size: 18px;
+    margin: 49px auto 53px;
+    padding: 16px 0;
+    width: 100%;
+
+  }
+
+  .baner_blocks_titel {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .block_titel {
+    max-width: 57px;
+    margin-bottom: 42px;
+
+    p {
+      display: none;
+    }
+  }
+
+  .burger_btn {
+    display: block;
+   
+          }
+    }
+  }
+
+

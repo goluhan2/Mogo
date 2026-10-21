@@ -1,0 +1,470 @@
+.MoGo_our_team {
+  margin-bottom: 84px;
+
+  .our_team_headline {
+    .Headline_ferst_titel {
+      font-family: Kaushan Script;
+      font-weight: 400;
+      font-size: 30px;
+      text-align: center;
+      vertical-align: middle;
+      color: #2d3033;
+      padding: 25px 0;
+    }
+
+    .Headline_next_titel {
+      font-family: Raleway;
+      font-weight: 900;
+      font-size: 36px;
+      text-align: center;
+      vertical-align: middle;
+      text-transform: uppercase;
+      color: #2d3033;
+      padding: 22px 0;
+      margin-bottom: 24px;
+    }
+
+    > hr {
+      max-width: 170px;
+      margin: 0 auto;
+      border: 4px solid #f38281;
+    }
+
+    .Headline_subtitel {
+      font-family: Raleway;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      vertical-align: middle;
+      padding: 40px 0;
+    }
+  }
+
+  .our_team_crats {
+    display: flex;
+    gap: 29px;
+    justify-content: space-between;
+
+
+    .Our_team_cart {
+      max-width: 387px;
+      width: 100%;
+      height: 550px;
+      position: relative;
+
+      .Our_team_img_one {
+        background-image: url(/src/app/Section/MoGo_our_team/IMG/PNG/Our_team_photo1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: transparent;
+        max-width: 387px;
+        width: 100%;
+        max-height: 424px;
+        height: 100%;
+      }
+
+      .Our_team_img_two {
+        background-image: url(/src/app/Section/MoGo_our_team/IMG/PNG/Our_team_photo3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: transparent;
+        max-width: 387px;
+        width: 100%;
+        max-height: 424px;
+        height: 100%;
+      }
+
+      .Our_team_img_three {
+        background-image: url(/src/app/Section/MoGo_our_team/IMG/PNG/Our_team_photo2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: transparent;
+        max-width: 387px;
+        width: 100%;
+        max-height: 424px;
+        height: 100%;
+      }
+
+      .Our_team_cart_hovel {
+        position: absolute;
+        background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+        max-width: 387px;
+        width: 100%;
+        max-height: 424px;
+        height: 100%;
+        top: -16px;
+        left: -16px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+
+        > a {
+          display: inline-block;
+          margin-top: 207px;
+
+          &:nth-child(1) {
+            margin-left: 116px;
+          }
+
+          > i {
+            width: 42px;
+            height: 42px;
+            font-size: 42px;
+            background: white;
+            color: #f38281;
+
+            &:hover {
+              background: #f38281;
+              color: white;
+            }
+          }
+        }
+      }
+
+      &.Our_team_cart:hover .Our_team_cart_hovel {
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    .Cart_name {
+      font-family: Raleway;
+      font-weight: 700;
+      font-size: 18px;
+      text-align: center;
+      vertical-align: middle;
+      text-transform: uppercase;
+      padding: 28px 0;
+    }
+
+    .Cart_jobtitel {
+      font-family: Raleway;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (max-width: 1154px) {
+  .MoGo_our_team {
+    margin-bottom: 58px;
+
+    .our_team_headline {
+      .Headline_ferst_titel {
+        font-size: 24px;
+        padding: 21px 0;
+      }
+
+      .Headline_next_titel {
+        font-size: 24px;
+        padding: 22px 0;
+        margin-bottom: 20px;
+      }
+
+      > hr {
+        max-width: 148px;
+      }
+
+      .Headline_subtitel {
+        font-size: 14px;
+        padding: 40px 0;
+      }
+    }
+
+    .our_team_crats {
+      gap: 20px;
+
+      .Our_team_cart {
+        max-width: 318px;
+        height: 428px;
+
+
+        .Our_team_cart_hovel {
+          max-width: 318px;
+          width: 100%;
+          max-height: 359px;
+          height: 100%;
+          top: -5px;
+          left: -4px;
+
+          > a {
+
+            margin-top: 166px;
+
+            &:nth-child(1) {
+              margin-left: 89px;
+            }
+
+            > i {
+              width: 36px;
+              height: 36px;
+              font-size: 36px;
+
+            }
+          }
+        }
+
+        .Our_team_img_one, .Our_team_img_two, .Our_team_img_three {
+          max-width: 318px;
+          width: 100%;
+          max-height: 359px;
+          height: 100%;
+        }
+
+      }
+
+      .Cart_name {
+
+        font-size: 18px;
+        padding: 10px 0;
+      }
+
+      .Cart_jobtitel {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 961px) {
+  .MoGo_our_team {
+    margin-bottom: 50px;
+
+    .our_team_headline {
+      .Headline_ferst_titel {
+        font-size: 20px;
+        padding: 19px 0;
+      }
+
+      .Headline_next_titel {
+        font-size: 20px;
+        padding: 20px 0;
+        margin-bottom: 20px;
+      }
+
+      > hr {
+        max-width: 140px;
+      }
+
+      .Headline_subtitel {
+        font-size: 12px;
+        padding: 36px 0;
+      }
+    }
+
+    .our_team_crats {
+      gap: 18px;
+
+      .Our_team_cart {
+        max-width: 280px;
+        height: 428px;
+
+
+        .Our_team_cart_hovel {
+          max-width: 280px;
+          width: 100%;
+          max-height: 359px;
+          height: 100%;
+          top: -5px;
+          left: -4px;
+
+          > a {
+
+            margin-top: 160px;
+
+            &:nth-child(1) {
+              margin-left: 74px;
+            }
+
+            > i {
+              width: 34px;
+              height: 34px;
+              font-size: 32px;
+            }
+          }
+        }
+
+        .Our_team_img_one, .Our_team_img_two, .Our_team_img_three {
+          max-width: 280px;
+          width: 100%;
+          max-height: 359px;
+          height: 100%;
+        }
+      }
+
+      .Cart_name {
+
+        font-size: 15px;
+        padding: 10px 0;
+      }
+
+      .Cart_jobtitel {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media (max-width: 769px) {
+  .MoGo_our_team {
+    margin-bottom: 50px;
+
+    .our_team_headline {
+      .Headline_ferst_titel {
+        font-size: 18px;
+        padding: 19px 0;
+      }
+
+      .Headline_next_titel {
+        font-size: 18px;
+        padding: 20px 0;
+        margin-bottom: 20px;
+      }
+
+      > hr {
+        max-width: 140px;
+      }
+
+      .Headline_subtitel {
+        font-size: 12px;
+        padding: 36px 0;
+      }
+    }
+
+    .our_team_crats {
+      gap: 18px;
+
+      .Our_team_cart {
+        max-width: 260px;
+        height: 408px;
+
+
+        .Our_team_cart_hovel {
+          max-width: 260px;
+          width: 100%;
+          max-height: 359px;
+          height: 100%;
+          top: -5px;
+          left: -4px;
+
+          > a {
+
+            margin-top: 130px;
+
+            &:nth-child(1) {
+              margin-left: 50px;
+            }
+
+            > i {
+              width: 34px;
+              height: 34px;
+              font-size: 32px;
+            }
+          }
+        }
+
+        .Our_team_img_one, .Our_team_img_two, .Our_team_img_three {
+          max-width: 280px;
+          width: 100%;
+          max-height: 359px;
+          height: 100%;
+        }
+      }
+
+      .Cart_name {
+
+        font-size: 15px;
+        padding: 10px 0;
+      }
+
+      .Cart_jobtitel {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  .MoGo_our_team {
+    margin-bottom: 50px;
+
+    .our_team_headline {
+      .Headline_ferst_titel {
+        font-size: 18px;
+        padding: 19px 0;
+      }
+
+      .Headline_next_titel {
+        font-size: 18px;
+        padding: 20px 0;
+        margin-bottom: 20px;
+      }
+
+      > hr {
+        max-width: 132px;
+      }
+
+      .Headline_subtitel {
+        font-size: 12px;
+        padding: 36px 0;
+      }
+    }
+
+    .our_team_crats {
+      display: flex;
+      flex-direction: column;
+      gap: 29px;
+      align-items: center;
+      justify-content: center;
+
+      .Our_team_cart {
+        max-width: 288px;
+        width: 100%;
+        height: 305px;
+        position: relative;
+        margin-bottom: 0px;
+
+
+        .Our_team_cart_hovel {
+          position: absolute;
+          background: transparent;
+          max-width: 288px;
+          width: 100%;
+          max-height: 40px;
+          height: 100%;
+          top: -5px;
+          left: 15px;
+          opacity: 1;
+          visibility: visible;
+
+          > a {
+            display: inline-block;
+            margin-top: 207px;
+
+            &:nth-child(1) {
+              margin-left: 116px;
+            }
+          }
+        }
+
+        .Our_team_img_one, .Our_team_img_two, .Our_team_img_three {
+          max-width: 288px;
+          max-height: 236px;
+        }
+      }
+
+      .Cart_name {
+        font-size: 15px;
+        padding: 10px 0;
+      }
+
+      .Cart_jobtitel {
+        font-size: 12px;
+      }
+    }
+  }
+}

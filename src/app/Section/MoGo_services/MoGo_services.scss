@@ -1,0 +1,237 @@
+.MoGo_services {
+  margin-bottom: 91px;
+
+
+  .services_ferst_titel {
+    font-family: Kaushan Script;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: #2d3033;
+    padding: 25px 0;
+  }
+
+  .services_second_titel {
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #2d3033;
+    padding: 22px 0;
+  }
+
+  .container_services > hr {
+    max-width: 170px;
+    margin: 24px auto 80px;
+    border: 4px solid #f38281;
+  }
+
+  .services_carts {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    .services_cart {
+      max-width: 370px;
+      width: 100%;
+      display: flex;
+
+      &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+        margin-bottom: 140px;
+      }
+
+
+      .services_ferst_tatel {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 24px;
+        vertical-align: middle;
+        text-transform: uppercase;
+        padding: 15px 0;
+        margin-left: 30px;
+      }
+
+      .services_last_tatel {
+        font-family: Raleway;
+        font-weight: 400;
+        font-size: 18px;
+        vertical-align: middle;
+        padding: 20px 0;
+        margin-left: 30px;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 1154px) {
+  .MoGo_services {
+    margin-bottom: 50px;
+
+
+    .services_ferst_titel, .services_second_titel {
+      font-size: 24px;
+      padding: 21px 0;
+    }
+
+    .container_services > hr {
+      max-width: 148px;
+      margin: 20px auto 68px;
+    }
+
+    .services_carts {
+      gap: 26px;
+
+
+      .services_cart {
+        max-width: 270px;
+        display: flex;
+
+
+        &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+          margin-bottom: 59px;
+        }
+      }
+
+      .services_cart_img {
+        flex: 0 0 60px;
+        height: 60px;
+
+        > img {
+          width: 100%;
+          height: 100%;
+          margin-top: 10px;
+        }
+      }
+
+      .services_cart_img {
+        .services_ferst_tatel {
+          font-size: 18px;
+          padding: 10px 0;
+        }
+
+        .services_last_tatel {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 961px) {
+  .MoGo_services {
+    margin-bottom: 48px;
+
+
+    .services_ferst_titel, .services_second_titel {
+      font-size: 22px;
+      padding: 21px 0;
+    }
+
+    .container_services > hr {
+      max-width: 140px;
+      margin: 20px auto 68px;
+    }
+
+    .services_carts {
+      gap: 20px;
+
+
+      .services_cart {
+        max-width: 230px;
+        display: flex;
+
+
+        &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+          margin-bottom: 55px;
+        }
+      }
+
+      .services_cart_img {
+        flex: 0 0 50px;
+        height: 50px;
+
+        > img {
+          width: 100%;
+          height: 100%;
+          margin-top: 10px;
+        }
+      }
+
+      .services_cart_tatel {
+        .services_ferst_tatel {
+          font-size: 16px;
+          padding: 10px 0;
+        }
+
+        .services_last_tatel {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  .MoGo_services {
+    margin-top: 29px;
+    margin-bottom: 48px;
+
+
+    .services_ferst_titel, .services_second_titel {
+      font-size: 22px;
+      padding: 21px 0;
+    }
+
+    .container_services > hr {
+      max-width: 134px;
+      margin: 20px auto 68px;
+    }
+
+    .services_carts {
+      display: flex;
+      gap: 36px;
+      justify-content: center;
+
+
+      .services_cart {
+        max-width: 350px;
+        width: 100%;
+
+
+        &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+          margin-bottom: 15px;
+        }
+      }
+
+      .services_cart_img {
+        flex: 0 0 50px;
+        height: 50px;
+
+        > img {
+          width: 100%;
+          height: 100%;
+          margin-top: 10px;
+        }
+      }
+
+      .services_cart_tatel {
+        .services_ferst_tatel {
+          font-size: 18px;
+          padding: 13px 0;
+          margin-left: 20px;
+        }
+
+        .services_last_tatel {
+          font-size: 14px;
+          padding: 9px 0;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

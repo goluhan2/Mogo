@@ -1,0 +1,104 @@
+.MoGo_futures {
+  background-color: #95e1d3;
+  margin-bottom: 42px;
+
+
+  .futures_block {
+    display: flex;
+
+
+    .futures_card {
+      max-width: 234px;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ffffff;
+
+
+      .card_tatel {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 64px;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        padding: 50px 0;
+
+        > span {
+          font-family: Raleway;
+          font-weight: 700;
+          font-size: 24px;
+          text-align: center;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1154px) {
+  .MoGo_futures {
+    margin-bottom: 29px;
+
+    .futures_block {
+
+      .futures_card {
+        max-width: 200px;
+
+        .card_tatel {
+          font-size: 48px;
+          padding: 52px 0;
+
+          > span {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 961px) {
+  .MoGo_futures {
+    margin-bottom: 25px;
+
+    .futures_block {
+
+      .futures_card {
+        max-width: 192px;
+
+        .card_tatel {
+          font-size: 44px;
+          padding: 48px 0;
+
+          > span {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  .MoGo_futures {
+    margin-bottom: 25px;
+
+    .futures_block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .futures_card {
+        max-width: 170px;
+        border: none;
+        border-bottom: 1px solid white;
+
+        .card_tatel {
+          font-size: 44px;
+          padding: 48px 0;
+
+          > span {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

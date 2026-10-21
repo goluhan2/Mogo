@@ -1,0 +1,264 @@
+.MoGo_story {
+  margin-top: 42px;
+}
+
+.story_ferst_titel {
+  font-family: Kaushan Script;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px 0;
+  color: #2d3033;
+}
+
+.story_second_titel {
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding: 23px 0;
+}
+
+.container-story > hr {
+  max-width: 170px;
+  margin: 0 auto;
+  border: 4px solid #f38281;
+}
+
+.story_last_titel {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+.super_teams_cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 106px;
+}
+
+.card_teams {
+  position: relative;
+  max-width: 370px;
+  max-height: 338px;
+  width: 100%;
+  cursor: pointer;
+  &::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#95e1d3;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  &:hover::after{
+    opacity: 1;
+  }
+  >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.hover_card_teams {
+  position: absolute;
+  top: -16px;
+  right: 16px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1;
+}
+
+.card_teams:hover .hover_card_teams {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover_card_teams a > {
+  img {
+    margin: 129px 140px 15px;
+  }
+
+  p {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: white;
+  }
+}
+
+.card_teams {
+  &:first-child {
+    background: #95e1d3;
+  }
+
+}
+@media (max-width: 1154px) {
+  .MoGo_story {
+    margin-top: 29px;
+  }
+
+  .story_ferst_titel, .story_second_titel {
+    font-size: 24px;
+    padding: 22px 0;
+  }
+
+  .container-story > hr {
+    max-width: 148px;
+  }
+
+  .story_last_titel {
+    font-size: 14px;
+    padding: 35px 0;
+  }
+
+  .super_teams_cards {
+    gap: 18px;
+    margin-bottom: 58px;
+  }
+
+  .card_teams {
+    max-width: 321px;
+    max-height: 273px;
+  }
+
+  .hover_card_teams {
+    top: -6px;
+    right: 6px;
+
+    a > {
+      img {
+        margin: 120px 145px 26px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  .MoGo_story {
+    margin-top: 29px;
+  }
+
+  .story_ferst_titel, .story_second_titel {
+    font-size: 22px;
+    padding: 20px 0;
+  }
+
+  .container-story > hr {
+    max-width: 134px;
+  }
+
+  .story_last_titel {
+    font-size: 12px;
+    padding: 35px 0;
+  }
+
+  .super_teams_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 106px;
+  }
+
+  .card_teams {
+    max-width: 288px;
+    height: 258px;
+    cursor: pointer;
+    &:hover::after{
+      opacity: 0;
+    }
+
+  .hover_card_teams {
+    position: absolute;
+    top: 162px;
+    right: 0;
+    max-width: 290px;
+    max-height: 88px;
+    opacity: 1;
+    visibility: visible;
+
+    a {
+      display: flex;
+      gap: 25px;
+
+      > {
+        img {
+          margin: 26px 7px 2px;
+        }
+
+        p {
+          font-size: 18px;
+          margin: 37px 7px 2px;
+        }
+      }
+    }
+    }
+  }
+}
+@media (max-width: 961px) {
+  .MoGo_story {
+    margin-top: 25px;
+  }
+
+  .story_ferst_titel, .story_second_titel {
+    font-size: 22px;
+    padding: 20px 0;
+  }
+
+  .container-story > hr {
+    max-width: 140px;
+  }
+
+  .story_last_titel {
+    font-size: 12px;
+    padding: 35px 0;
+  }
+
+  .super_teams_cards {
+    gap: 16px;
+    margin-bottom: 55px;
+  }
+
+  .card_teams {
+    max-width: 290px;
+    max-height: 250px;
+  }
+
+  .hover_card_teams {
+    top: -4px;
+    right: 4px;
+
+    a > {
+      img {
+        margin: 98px 97px 15px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

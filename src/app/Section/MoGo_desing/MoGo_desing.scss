@@ -1,0 +1,441 @@
+.MoGo_desing {
+  background-image: url(/src/app/Section/MoGo_desing/IMG/PNG/backgraund_desing.png);
+  margin-bottom: 42px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 868px;
+
+
+  .desing_backgraund {
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    padding-bottom: 15px;
+  }
+
+  .desing_ferst_titel {
+    font-family: Kaushan Script;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: #2d3033;
+    padding: 25px 0;
+  }
+
+  .desing_last_titel {
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #2d3033;
+  }
+
+  .container_desing > hr {
+    max-width: 170px;
+    margin: 24px auto 80px;
+    border: 4px solid #f38281;
+  }
+
+  .desing_img_devais {
+    margin-bottom: 90px;
+
+
+    .divais_laptop {
+      position: relative;
+
+
+      .laptop {
+        max-width: 1170px;
+        max-height: 525px;
+        position: absolute;
+        z-index: 1;
+        padding-bottom: 57px;
+      }
+
+      > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .scrin_laptop {
+        max-width: 659px;
+        max-height: 494px;
+        position: absolute;
+        top: 22px;
+        left: 255px;
+
+        > img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .divais_mobil {
+      position: relative;
+
+
+      .mobil {
+        max-width: 200px;
+        max-height: 412px;
+        position: absolute;
+        z-index: 3;
+        top: 256px;
+        left: 755px;
+
+        > img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .scrin_mobil {
+        max-width: 200px;
+        max-height: 412px;
+        position: absolute;
+        z-index: 2;
+        top: 256px;
+        left: 765px;
+
+        > img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1154px) {
+
+
+  .MoGo_desing {
+    margin-bottom: 59px;
+    height: 589px;
+
+    .desing_ferst_titel {
+      font-size: 24px;
+      padding: 15px 0;
+      margin-top: 29px;
+    }
+
+    .desing_last_titel {
+      font-size: 24px;
+      padding: 15px 0;
+    }
+
+    .container_desing > hr {
+      max-width: 148px;
+      margin: 16px auto 40px;
+    }
+
+    .desing_img_devais {
+      margin-bottom: 38px;
+
+
+      .divais_laptop {
+        max-width: 794px;
+        margin: 0 auto;
+
+
+        .laptop {
+          max-width: 794px;
+          max-height: 357px;
+          margin: 0 auto;
+
+          > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .scrin_laptop {
+          max-width: 447px;
+          max-height: 335px;
+          top: 8px;
+          left: 175px;
+        }
+      }
+
+      .divais_mobil {
+        .mobil {
+          max-width: 136px;
+          max-height: 280px;
+          top: 169px;
+          left: 644px;
+
+          > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .scrin_mobil {
+          max-width: 127px;
+          max-height: 267px;
+          position: absolute;
+          z-index: 2;
+          top: 174px;
+          left: 646px;
+
+          > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 961px) {
+
+
+  .MoGo_desing {
+    margin-bottom: 52px;
+    height: 510px;
+
+    .desing_ferst_titel {
+      font-size: 20px;
+      padding: 15px 0;
+      margin-top: 25px;
+    }
+
+    .desing_last_titel {
+      font-size: 20px;
+      padding: 15px 0;
+    }
+
+    .container_desing > hr {
+      max-width: 140px;
+      margin: 16px auto 36px;
+    }
+
+    .desing_img_devais {
+      margin-bottom: 34px;
+
+
+      .divais_laptop {
+        max-width: 670px;
+        margin: 0 auto;
+
+
+        .laptop {
+          max-width: 670px;
+          margin: 0 auto;
+
+        }
+
+        .scrin_laptop {
+          max-width: 380px;
+          top: 8px;
+          left: 145px;
+        }
+      }
+
+      .divais_mobil {
+        .mobil {
+          max-width: 115px;
+          top: 160px;
+          left: 570px;
+        }
+
+        .scrin_mobil {
+          max-width: 109px;
+          top: 160px;
+          left: 572px;
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 769px) {
+
+
+  .MoGo_desing {
+    margin-bottom: 50px;
+    height: 510px;
+
+    .desing_ferst_titel {
+      font-size: 20px;
+      padding: 15px 0;
+      margin-top: 25px;
+    }
+
+    .desing_last_titel {
+      font-size: 20px;
+      padding: 15px 0;
+    }
+
+    .container_desing > hr {
+      max-width: 140px;
+      margin: 16px auto 36px;
+    }
+
+    .desing_img_devais {
+      margin-bottom: 34px;
+
+
+      .divais_laptop {
+        max-width: 670px;
+        margin: 0 auto;
+
+
+        .laptop {
+          max-width: 670px;
+          margin: 0 auto;
+
+        }
+
+        .scrin_laptop {
+          max-width: 380px;
+          top: 8px;
+          left: 145px;
+        }
+      }
+
+      .divais_mobil {
+        .mobil {
+          max-width: 115px;
+          top: 160px;
+          left: 461px;
+        }
+
+        .scrin_mobil {
+          max-width: 109px;
+          top: 160px;
+          left: 462px;
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+
+
+  .MoGo_desing {
+    height: 403px;
+
+    .desing_ferst_titel {
+      font-size: 20px;
+      padding: 15px 0;
+      margin-top: 25px;
+    }
+
+    .desing_last_titel {
+      font-size: 20px;
+      padding: 15px 0;
+    }
+
+    .container_desing > hr {
+      max-width: 134px;
+      margin: 24px auto 36px;
+      border: 4px solid #f38281;
+    }
+
+    .desing_img_devais {
+      margin-bottom: 90px;
+
+
+      .divais_laptop {
+
+        .laptop {
+          max-width: 460px;
+          left: 0px;
+
+        }
+
+        .scrin_laptop {
+          max-width: 233px;
+          top: 7px;
+          left: 93px;
+        }
+      }
+
+      .divais_mobil {
+        .mobil {
+          max-width: 70px;
+          top: 110px;
+          left: 260px;
+        }
+
+        .scrin_mobil {
+          max-width: 65px;
+          top: 111px;
+          left: 264px;
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 394px) {
+
+
+  .MoGo_desing {
+    height: 380px;
+
+    .desing_ferst_titel {
+      font-size: 20px;
+      padding: 15px 0;
+      margin-top: 25px;
+    }
+
+    .desing_last_titel {
+      font-size: 20px;
+      padding: 15px 0;
+    }
+
+    .container_desing > hr {
+      max-width: 134px;
+      margin: 24px auto 36px;
+      border: 4px solid #f38281;
+    }
+
+    .desing_img_devais {
+      margin-bottom: 90px;
+
+        .divais_laptop {
+          max-width: 370px;
+          margin: 0 auto;
+          .laptop {
+            max-width: 460px;
+            left: 0px;
+
+          }
+
+          .scrin_laptop {
+            max-width: 203px;
+            top: 7px;
+            left: 80px;
+          }
+        }
+
+        .divais_mobil {
+          .mobil {
+            max-width: 70px;
+            top: 104px;
+            left: 239px;
+          }
+
+          .scrin_mobil {
+            max-width: 65px;
+            top: 105px;
+            left: 242px;
+
+          }
+        }
+      }
+    }
+}

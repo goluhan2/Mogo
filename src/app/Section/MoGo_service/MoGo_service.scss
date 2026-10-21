@@ -1,0 +1,312 @@
+.MoGo_service {
+  margin-bottom: 114px;
+  .service_ferst_titel {
+    font-family: Kaushan Script;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 25px 0;
+  }
+  .service_second_titel {
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 22px 0;
+  }
+  .container-service > hr {
+    max-width: 170px;
+    margin: 0 auto 24px;
+    border: 4px solid #f38281;
+  }
+  .servis_last_titel {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 41px 0;
+    margin-bottom: 42px;
+  }
+  .servis_info {
+    display: flex;
+    gap: 30px;
+    .servis_info_img {
+      max-width: 570px;
+      max-height: 483px;
+      > img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .servis_info_dropdown {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      .dropdown {
+        max-width: 570px;
+        .dropdown_titel {
+          display: flex;
+          justify-content: space-between;
+          border: 1px solid #c6cbcd;
+          .dropdown_img {
+            max-width: 42px;
+            max-height: 42px;
+            margin: 22px 18px;
+            > img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          > p {
+            font-family: Raleway;
+            font-weight: 700;
+            font-size: 24px;
+            vertical-align: middle;
+            text-transform: uppercase;
+            padding: 30.5px 0;
+            margin-left: 34px;
+            margin-right: 37px;
+            padding-right: 141px;
+          }
+          .dropdown_btn {
+            background-image: url(/src/app/img/arrow.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: transparent;
+            width: 42px;
+            height: 42px;
+            transition: transform 0.5s ease;
+            transform: rotate(180deg);
+            margin: 22px 11px 0 44px;
+
+            &.active {
+              transition: transform 0.5s ease;
+              transform: rotate(0deg);
+            }
+          }
+        }
+        .dropdown_info {
+          display: none;
+          opacity: 0;
+          font-family: Raleway;
+          font-weight: 400;
+          font-size: 18px;
+          vertical-align: middle;
+          overflow-block: scroll;
+          max-height: 163px;
+          padding-left: 22px;
+          padding-right: 54px;
+          border: 1px solid #c6cbcd;
+          transition: opacity 0.4s ease-in-out;
+          scrollbar-color: #95e1d3 #f5f5f5;
+          &.active {
+            display: block;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1154px){
+  .MoGo_service {
+    margin-bottom: 88px;
+    .service_ferst_titel {
+      font-size: 24px;
+      padding: 22px 0;
+    }
+    .service_second_titel {
+      font-size: 24px;
+      padding: 22px 0;
+    }
+    .container-service > hr {
+      max-width: 148px;
+      margin: 20px auto 0;
+    }
+    .servis_last_titel {
+      font-size: 14px;
+      padding: 25px 0;
+      margin-bottom: 25px;
+    }
+    .servis_info {
+      gap: 20px;
+      .servis_info_img {
+        max-width: 486px;
+        max-height: 409px;
+      }
+      .servis_info_dropdown {
+        gap: 19px;
+        .dropdown {
+          max-width: 486px;
+          .dropdown_titel {
+            .dropdown_img {
+              max-width: 36px;
+              max-height: 36px;
+              margin: 16px 16px;
+              >img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+            > p {
+              font-size: 18px;
+              padding: 20px 0;
+              margin-right: 37px;
+              padding-right: 130px;
+              padding-left: 22px;
+            }
+            .dropdown_btn {
+              width: 36px;
+              height: 36px;
+              margin: 16px 11px;
+            }
+          }
+          .dropdown_info {
+            font-size: 14px;
+            padding-left: 22px;
+            padding-right: 54px;
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 961px){
+  .MoGo_service {
+    margin-bottom: 80px;
+    .service_ferst_titel {
+      font-size: 22px;
+      padding: 20px 0;
+    }
+    .service_second_titel {
+      font-size: 22px;
+      padding: 22px 0;
+    }
+    .container-service > hr {
+      max-width: 140px;
+      margin: 20px auto 0;
+    }
+    .servis_last_titel {
+      font-size: 12px;
+      padding: 22px 0;
+      margin-bottom: 22px;
+    }
+    .servis_info {
+      gap: 18px;
+      .servis_info_img {
+        max-width: 450px;
+        max-height: 400px;
+      }
+      .servis_info_dropdown {
+        gap: 19px;
+        .dropdown {
+          max-width: 450px;
+          .dropdown_titel {
+            .dropdown_img {
+              max-width: 33px;
+              max-height: 33px;
+              margin: 16px 16px;
+              >img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+            > p {
+              font-size: 16px;
+              padding: 20px 0;
+              margin-right: 37px;
+              padding-right: 130px;
+              padding-left: 22px;
+            }
+            .dropdown_btn {
+              width: 33px;
+              height: 33px;
+              margin: 16px 11px;
+            }
+          }
+          .dropdown_info {
+            font-size: 13px;
+            padding-left: 22px;
+            padding-right: 54px;
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 451px){
+  .MoGo_service {
+    margin-bottom: 31px;
+    .service_ferst_titel {
+      font-size: 22px;
+      padding: 20px 0;
+    }
+    .service_second_titel {
+      font-size: 22px;
+      padding: 22px 0;
+    }
+    .container-service > hr {
+      max-width: 134px;
+      margin: 20px auto 0;
+    }
+    .servis_last_titel {
+      font-size: 12px;
+      padding: 22px 0;
+      margin-bottom: 22px;
+    }
+    .servis_info {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      .servis_info_img {
+        height: 188px;
+        width: 288px;
+      }
+      .servis_info_dropdown {
+        gap: 19px;
+
+        .dropdown {
+          max-width: 288px;
+          .dropdown_titel {
+            .dropdown_img {
+              max-width: 33px;
+              max-height: 33px;
+              margin: 16px 16px;
+              >img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+            > p {
+              font-size: 14px;
+              padding: 32px 35px 32px 11px;
+              margin-left: 0px;
+              margin-right: 0px
+            }
+            .dropdown_btn {
+              width: 33px;
+              height: 33px;
+              margin: 16px 11px;
+            }
+          }
+          .dropdown_info {
+            font-size: 13px;
+            padding-left: 22px;
+            padding-right: 54px;
+
+          }
+        }
+      }
+    }
+  }
+}
